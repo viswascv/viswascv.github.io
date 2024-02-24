@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwash</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    body{
+        background-color: #F9F9F9;
+    }
+    .one{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    .m{
+        display: none;
+    }
+    @media only screen and (max-width:850px) {
+        .one{
+            margin: 0;
+        }
+        img {
+            height: auto;
+            width: 100%;
+        }
+        .d{
+            display: none;
+        }
+        .m{
+            display: block;
+        }
+    }
+</style>
+<body>
+    <div class="one"><img class="d" src="./images/logomark.png" /><img class="m" src="logomark-m.png" /></div>
+</body>
+
+</html>
